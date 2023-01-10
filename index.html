@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css"/>
+    <title>TailwindCss</title>
+</head>
+<body class="bg-mainColor text-white">
+<header class="container mx-auto px-5 md:px-0">
+    <div class="flex justify-between pt-big">
+            <span class="font-bold text-3xl">
+                Tailwind
+            </span>
+        <div class="space-x-5">
+            <a href="" class="hover:underline">About</a>
+            <a href="" class="bg-red-800 py-2 px-4 rounded-full hover:bg-red-500">Contacts</a>
+        </div>
+    </div>
+</header>
+
+<main class="container mx-auto py-big">
+    <h1 class="text-center text-3xl font-bold">Tailwind CSS</h1>
+    <p class="pt-3 w-full sm:w-[450px] mx-auto pt-6 px-5 sm:px-0">Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Cupiditate distinctio eos exercitationem harum
+        itaque labore praesentium ratione rem sapiente veniam? At eaque libero magni maxime nobis obcaecati
+        perspiciatis quam quo!</p>
+    <div class="flex justify-center pt-big space-x-0 md:space-x-10 flex-col md:flex-row space-y-5 md:space-y-0">
+        <div class="bg-red-800 py-2 px-4 rounded-full hover:bg-red-500">Button 1</div>
+        <div class="bg-red-800 py-2 px-4 rounded-full hover:bg-red-500">Button 2</div>
+        <div class="bg-red-800 py-2 px-4 rounded-full hover:bg-red-500">Button 3</div>
+        <div class="bg-red-800 py-2 px-4 rounded-full hover:bg-red-500">Button 4</div>
+        <div class="bg-red-800 py-2 px-4 rounded-full hover:bg-red-500">Button 5</div>
+    </div>
+</main>
+
+<div class="container mx-auto py-big grid grid-columns-4 grid-flow-col gap-4">
+    <div class="bg-[#4068939e] w-1/2 h-[100px]"></div>
+    <div class="bg-[#4068939e] w-3/5 h-[100px]"></div>
+    <div class="bg-[#4068939e] w-1/6 h-[100px]"></div>
+    <div class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 w-full h-[100px]"></div>
+</div>
+
+<div class="container mx-auto py-big">
+    <h1 class="text-3xl text-center pb-5">9 редких тегов HTML</h1>
+    <ul class="list-decimal w-[65px] mx-auto">
+        <li>datalist</li>
+        <li>sub</li>
+        <li>sup</li>
+        <li>details</li>
+        <li>dialog</li>
+        <li>figure</li>
+        <li>picture</li>
+        <li>meter</li>
+        <li>progress</li>
+    </ul>
+
+    <div class="container mx-auto pt-big grid grid-columns-3 grid-flow-col gap-4 text-black">
+        <div class="w-full border-2 border-[#4068939e] p-2 flex flex-row">
+            <div class="w-[50px] font-bold">1.</div>
+            <input type="text" list="techs" class="px-1">
+
+            <datalist id="techs">
+                <option value="HTML"></option>
+                <option value="CSS"></option>
+                <option value="JS"></option>
+            </datalist>
+
+        </div>
+
+        <div class="w-full border-2 border-[#4068939e] p-2 flex flex-row">
+            <div class="w-[50px] font-bold">2.</div>
+            <p>H<sub>2</sub>0</p>
+        </div>
+
+        <div class="w-full border-2 border-[#4068939e] p-2 flex flex-row">
+            <div class="w-[50px] font-bold">3.</div>
+            <p>E=MC<sup>2</sup></p>
+        </div>
+
+    </div>
+
+    <div class="container pt-5 mx-auto grid grid-columns-3 grid-flow-col gap-4 text-black">
+        <div class="w-full border-2 border-[#4068939e] p-2 flex flex-row">
+            <div class="w-[50px] font-bold">4.</div>
+            <details>
+                <summary>Открыть?</summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid blanditiis consectetur
+                    delectus in optio provident quae qui voluptate? Beatae ex iste, molestiae mollitia optio
+                    reiciendis sint tenetur vero vitae. Eum.</p>
+            </details>
+        </div>
+    </div>
+
+    <div class="container pt-5 mx-auto grid grid-columns-3 grid-flow-col gap-4 text-black">
+        <div class="w-full border-2 border-[#4068939e] p-2 flex flex-row">
+            <div class="w-[50px] font-bold">5.</div>
+            <div> Лень воспроизводить, но это модалка, по центру экрана, если работает с мобилок то круто. Если
+                нет, то бесполезная.
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-5 mx-auto grid grid-columns-4 grid-flow-col gap-4 text-black">
+
+        <div class="w-full border-2 border-[#4068939e] p-2 flex flex-row">
+            <div class="w-[50px] font-bold">6.</div>
+            <div>
+                <figure class="w-[200px]">
+                    <img
+                         src="https://catherineasquithgallery.com/uploads/posts/2021-02/1612832721_2-p-fon-ledyanoi-uzor-4.jpg"
+                         alt="">
+                    <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur eligendi eos
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="w-full border-2 border-[#4068939e] p-2 flex flex-row">
+            <div class="w-[50px] font-bold">7.</div>
+            <div>
+                <picture>
+                    <source
+                        media="(min-width:900px)"
+                        srcset="http://s4.fotokto.ru/photo/full/573/5733663.jpg"
+                    >
+
+                    <img class="w-[200px]"
+                         src="https://catherineasquithgallery.com/uploads/posts/2021-02/1612832721_2-p-fon-ledyanoi-uzor-4.jpg"
+                         alt="">
+                </picture>
+            </div>
+        </div>
+
+        <div class="w-full border-2 border-[#4068939e] p-2 flex flex-row">
+            <div class="w-[50px] font-bold">8.</div>
+            <div>
+                <label for="fuel">Fuel level:</label>
+
+                <meter id="fuel"
+                       min="0" max="100"
+                       low="33" high="66" optimum="80"
+                       value="90">
+                    at 50/100
+                </meter>
+            </div>
+        </div>
+
+        <div class="w-full border-2 border-[#4068939e] p-2 flex flex-row">
+            <div class="w-[50px] font-bold">9.</div>
+            <div>
+                <label for="file">File progress:</label>
+
+                <progress id="file" max="100" value="70"> 70% </progress>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
